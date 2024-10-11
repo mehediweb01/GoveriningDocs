@@ -20,12 +20,15 @@ const Navbar = () => {
     <>
       <Container className="flex justify-between items-center bg-white rounded-full py-5 px-[30px] ">
         <div>
-          <Logo>Governing Docs</Logo>
+          <Logo>GoverningDocs</Logo>
         </div>
         <div className="lg:block hidden">
           <ul>
             {navItems.map((item, i) => (
-              <li key={i} className="inline-block px-4 hover:font-semibold transition-all duration-300">
+              <li
+                key={i}
+                className="inline-block px-4 hover:font-semibold transition-all duration-300"
+              >
                 <a
                   href={item.href}
                   className="font-nunito-sans font-base leading-5 text-secondary"
@@ -39,7 +42,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-3">
           {/* mobile device showing 3 dots */}
-          <button className="lg:hidden" onClick={handle}>
+          <button className="lg:hidden px-2" onClick={handle}>
             <div className="h-1 w-6 mt-1 bg-gradient-primary"></div>
             <div className="h-1 w-6 mt-1 bg-gradient-primary"></div>
             <div className="h-1 w-6 mt-1 bg-gradient-primary"></div>

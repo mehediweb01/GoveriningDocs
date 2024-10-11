@@ -1,5 +1,5 @@
 import { navItems } from './../lib/db/index'
-import Logo from './Logo';
+import Logo from './Logo'
 const MobileDevice = ({ isOpen }) => {
   return (
     <div className="lg:hidden absolute top-0 left-0 w-full h-screen bg-white overflow-y-auto p-6 z-50">
@@ -12,7 +12,7 @@ const MobileDevice = ({ isOpen }) => {
           &times;
         </button>
       </div>
-      <div className='flex flex-col space-y-4 mt-4'>
+      <div className="flex flex-col space-y-4 mt-4">
         {navItems.map((item, i) => (
           <li key={i} className="inline-block px-4">
             <a
@@ -26,7 +26,6 @@ const MobileDevice = ({ isOpen }) => {
       </div>
     </div>
   )
-  
 }
 
 export default MobileDevice
