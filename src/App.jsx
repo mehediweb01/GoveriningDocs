@@ -1,9 +1,9 @@
+import Navbar from './components/shared/Navbar'
+
 function App() {
   return (
     <>
-      <div>
-        <h1>Hello world</h1>
-      </div>
+      <Navbar />
     </>
   )
 }
