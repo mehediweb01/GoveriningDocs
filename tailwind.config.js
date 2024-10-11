@@ -15,7 +15,7 @@ export default {
       colors: {
         primary: '#00D2FF',
         secondary: '#2D2D2D',
-        gray: '#666666',
+        accent: '#666666',
       },
       borderRadius: {
         '20': '20px',
