@@ -1,3 +1,4 @@
+import Faq from './components/Home/FAQ';
 import Headers from './components/Home/Header'
 import Partners from './components/Home/Partners'
 import ProblemSolutions from './components/Home/ProblemSolution'
@@ -13,6 +14,7 @@ function App() {
       <ProblemSolutions />
       <Reviews />
       <Partners />
+      <Faq />
       <Footer />
     </>
   )
