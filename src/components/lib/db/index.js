@@ -63,4 +63,38 @@ export const ProblemSolution = [
     title: 'Compliance Management',
     des1: 'Ensure all your documents meet the latest regulatory standards.',
   },
+];
+
+export const ReviewsData = [
+  {
+    img: 'Img/david.png',
+    name: 'David',
+    type: 'Happy Client',
+    review: {
+      stars: 5,
+      title: 'Outstanding Support!',
+      details: 'The customer support team was quick to resolve my issues.',
+    },
+  },
+  {
+    img: 'Img/Jhon.png',
+    name: 'John Smith',
+    type: 'Happy Client',
+    review: {
+      stars: 5,
+      title: 'It Was An Amazing Experience!',
+      details:
+        'The AI features saved us countless hours and ensured our compliance was spot on.',
+    },
+  },
+  {
+    img: 'Img/ronald.png',
+    name: 'Ronald Richards',
+    type: 'Happy Client',
+    review: {
+      stars: 4,
+      title: 'Highly Recommend!',
+      details: 'The service was user-friendly and met all my expectations.',
+    },
+  },
 ]
