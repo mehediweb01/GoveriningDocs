@@ -52,7 +52,7 @@ const Reviews = () => {
                 <Star key={el} />
               ))}
             </div>
-            <p className="font-nunito-sans text-base leading-5 text-[#666666]">
+            <p className="font-nunito-sans text-base leading-5 text-accent">
               {ActiveReview.review.details}
             </p>
           </div>

@@ -38,7 +38,7 @@ export const socialIcons = [
     img: '/Img/twitter.svg',
     url: 'https://www.facebook.com/mehediwebdesigner',
   },
-];
+]
 
 export const ProblemSolution = [
   {
@@ -63,7 +63,7 @@ export const ProblemSolution = [
     title: 'Compliance Management',
     des1: 'Ensure all your documents meet the latest regulatory standards.',
   },
-];
+]
 
 export const ReviewsData = [
   {
@@ -96,5 +96,32 @@ export const ReviewsData = [
       title: 'Highly Recommend!',
       details: 'The service was user-friendly and met all my expectations.',
     },
+  },
+]
+
+export const OurPartners = [
+  {
+    img: 'Img/partner1.png',
+    alt: 'partner 1',
+  },
+  {
+    img: 'Img/partner2.png',
+    alt: 'partner 2',
+  },
+  {
+    img: 'Img/partner3.png',
+    alt: 'partner 3',
+  },
+  {
+    img: 'Img/partner4.png',
+    alt: 'partner 4',
+  },
+  {
+    img: 'Img/partner5.png',
+    alt: 'partner 5',
+  },
+  {
+    img: 'Img/partner6.png',
+    alt: 'partner 6',
   },
 ]
