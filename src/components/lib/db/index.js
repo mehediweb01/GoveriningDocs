@@ -28,7 +28,7 @@ export const socialIcons = [
   },
   {
     img: '/Img/instagram.svg',
-    url: 'https://www.facebook.com/mehediwebdesigner',
+    url: 'https://www.instagram.com/mehedihasan0938?igsh=MWNla2ZrMWJmdHJ2OQ==',
   },
   {
     img: '/Img/linkedin.svg',
@@ -36,7 +36,7 @@ export const socialIcons = [
   },
   {
     img: '/Img/twitter.svg',
-    url: 'https://www.facebook.com/mehediwebdesigner',
+    url: 'https://x.com/mehedihasan0937?t=MnHqsceH5lpF5TqebGTMxA&s=09',
   },
 ]
 

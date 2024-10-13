@@ -5,7 +5,7 @@ import { faqData } from '../lib/db'
 import FaqCard from './FaqCard'
 
 const Faq = () => {
-  const [Active, setActive] = useState(1)
+  const [Active, setActive] = useState(0)
   const handleChange = index => {
     Active === index ? setActive(-1) : setActive(index)
   }
